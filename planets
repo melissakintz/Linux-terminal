@@ -36,25 +36,34 @@ melissa@MBP-de-Melissa planets % cp fictional/arrakis.jpeg inhabited
 melissa@MBP-de-Melissa planets % cd inhabited
 melissa@MBP-de-Melissa inhabited % ls
 arrakis.jpeg	coruscant.jpeg	cybertron.jpeg	earth.jpeg
-
-
-melissa@MBP-de-Melissa inhabited % cd ..
+melissa@MBP-de-Melissa planets % mv real/jupiter.jpeg gas-giants                        
+melissa@MBP-de-Melissa planets % mv real/saturn.jpeg gas-giants
+melissa@MBP-de-Melissa planets % mv real/neptune.jpeg gas-giants
+melissa@MBP-de-Melissa planets % mv real/mercury.jpeg gas-giants
+melissa@MBP-de-Melissa planets % cd gas-giants
+melissa@MBP-de-Melissa gas-giants % ls
+jupiter.jpeg	mercury.jpeg	neptune.jpeg	saturn.jpeg
+melissa@MBP-de-Melissa gas-giants % cd ..
+melissa@MBP-de-Melissa planets % mv real/pluto.jpeg dwarf-planets
+melissa@MBP-de-Melissa planets % cp inhabited/earth.jpeg terrestrial
 melissa@MBP-de-Melissa planets % cd ..
+
+
 melissa@MBP-de-Melissa shell % find planets
 planets
 planets/.DS_Store
 planets/gas-giants
-planets/dwarf-planets
+planets/gas-giants/mercury.jpeg
+planets/gas-giants/.DS_Store
+planets/gas-giants/jupiter.jpeg
+planets/gas-giants/neptune.jpeg
+planets/gas-giants/saturn.jpeg
 planets/real
-planets/real/mercury.jpeg
 planets/real/earth.jpeg
-planets/real/pluto.jpeg
-planets/real/jupiter.jpeg
+planets/real/.DS_Store
 planets/real/venus.jpeg
 planets/real/mars.jpeg
 planets/real/uranus.jpeg
-planets/real/neptune.jpeg
-planets/real/saturn.jpeg
 planets/inhabited
 planets/inhabited/earth.jpeg
 planets/inhabited/arrakis.jpeg
@@ -65,3 +74,4 @@ planets/fictional/arrakis.jpeg
 planets/fictional/cybertron.jpeg
 planets/fictional/coruscant.jpeg
 planets/terrestrial
+planets/terrestrial/earth.jpeg
