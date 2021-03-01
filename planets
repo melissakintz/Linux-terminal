@@ -36,4 +36,32 @@ melissa@MBP-de-Melissa planets % cp fictional/arrakis.jpeg inhabited
 melissa@MBP-de-Melissa planets % cd inhabited
 melissa@MBP-de-Melissa inhabited % ls
 arrakis.jpeg	coruscant.jpeg	cybertron.jpeg	earth.jpeg
-melissa@MBP-de-Melissa inhabited % mv real/jupiter.jpeg gas-giants
+
+
+melissa@MBP-de-Melissa inhabited % cd ..
+melissa@MBP-de-Melissa planets % cd ..
+melissa@MBP-de-Melissa shell % find planets
+planets
+planets/.DS_Store
+planets/gas-giants
+planets/dwarf-planets
+planets/real
+planets/real/mercury.jpeg
+planets/real/earth.jpeg
+planets/real/pluto.jpeg
+planets/real/jupiter.jpeg
+planets/real/venus.jpeg
+planets/real/mars.jpeg
+planets/real/uranus.jpeg
+planets/real/neptune.jpeg
+planets/real/saturn.jpeg
+planets/inhabited
+planets/inhabited/earth.jpeg
+planets/inhabited/arrakis.jpeg
+planets/inhabited/cybertron.jpeg
+planets/inhabited/coruscant.jpeg
+planets/fictional
+planets/fictional/arrakis.jpeg
+planets/fictional/cybertron.jpeg
+planets/fictional/coruscant.jpeg
+planets/terrestrial
