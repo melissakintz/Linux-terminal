@@ -1,0 +1,43 @@
+melissa@MBP-de-Melissa Documents % pwd
+/Users/melissa/Documents
+melissa@MBP-de-Melissa Documents % cd ..
+melissa@MBP-de-Melissa ~ % pwd
+/Users/melissa
+melissa@MBP-de-Melissa ~ % cd ..
+melissa@MBP-de-Melissa /Users % ls
+Guest	Shared	melissa
+melissa@MBP-de-Melissa /Users % cd melissa
+melissa@MBP-de-Melissa ~ % pwd
+/Users/melissa
+melissa@MBP-de-Melissa ~ % ls
+Desktop		Downloads	Movies		Pictures
+Documents	Library		Music		Public
+melissa@MBP-de-Melissa ~ % ls -la
+total 64
+drwxr-xr-x+ 20 melissa  staff    640  1 mar 15:24 .
+drwxr-xr-x   6 root     admin    192  1 jan  2020 ..
+-r--------   1 melissa  staff      7 18 jan 16:34 .CFUserTextEncoding
+-rw-r--r--@  1 melissa  staff  14340 22 fév 14:04 .DS_Store
+drwx------   3 melissa  staff     96 28 fév 15:22 .Trash
+drwxr-xr-x   3 melissa  staff     96 15 fév 14:12 .config
+-rw-r--r--   1 melissa  staff    112 16 fév 15:57 .gitconfig
+drwx------   4 melissa  staff    128 17 fév 10:04 .ssh
+-rw-------   1 melissa  staff   1078 16 fév 17:22 .viminfo
+drwxr-xr-x   4 melissa  staff    128 18 jan 16:55 .vscode
+-rw-------   1 melissa  staff   1526  1 mar 15:24 .zsh_history
+drwx------  35 melissa  staff   1120  1 mar 15:24 .zsh_sessions
+drwx------@  6 melissa  staff    192 26 fév 08:48 Desktop
+drwx------@ 15 melissa  staff    480  1 mar 14:29 Documents
+drwx------+  4 melissa  staff    128 24 fév 19:58 Downloads
+drwx------@ 70 melissa  staff   2240 28 fév 09:30 Library
+drwx------   4 melissa  staff    128 18 jan 17:58 Movies
+drwx------+  3 melissa  staff     96 18 jan 16:34 Music
+drwx------+  4 melissa  staff    128 18 jan 16:35 Pictures
+drwxr-xr-x+  4 melissa  staff    128 18 jan 16:34 Public
+melissa@MBP-de-Melissa ~ % 
+melissa@MBP-de-Melissa ~ % cd Music
+melissa@MBP-de-Melissa Music % ls
+melissa@MBP-de-Melissa Music % ls ~/Downloads
+melissa@MBP-de-Melissa Music % cd ..
+melissa@MBP-de-Melissa ~ % pwd
+/Users/melissa
