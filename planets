@@ -1,0 +1,39 @@
+   melissa@MBP-de-Melissa shell % pwd
+/Users/melissa/quests/shell
+melissa@MBP-de-Melissa shell % cd planets
+melissa@MBP-de-Melissa planets % pwd
+/Users/melissa/quests/shell/planets
+melissa@MBP-de-Melissa planets % mkdir -p real fictionnal inhabited
+melissa@MBP-de-Melissa planets % mkdir -p terrestrial gas-giants dwarf-planets
+melissa@MBP-de-Melissa planets % ls
+arrakis.jpeg	dwarf-planets	gas-giants	mars.jpeg	pluto.jpeg	terrestrial
+coruscant.jpeg	earth.jpeg	inhabited	mercury.jpeg	real		uranus.jpeg
+cybertron.jpeg	fictionnal	jupiter.jpeg	neptune.jpeg	saturn.jpeg	venus.jpeg
+melissa@MBP-de-Melissa planets % mv fictionnal fictional   
+melissa@MBP-de-Melissa planets % mv arrakis.jpeg fictional
+melissa@MBP-de-Melissa planets % mv cybertron.jpeg fictional 
+melissa@MBP-de-Melissa planets % mv coruscant.jpeg fictional 
+melissa@MBP-de-Melissa planets % mv coruscant.jpeg fictional
+melissa@MBP-de-Melissa planets % mv earth.jpeg real
+melissa@MBP-de-Melissa planets % mv jupiter.jpeg real
+melissa@MBP-de-Melissa planets % mv mars.jpeg real
+melissa@MBP-de-Melissa planets % mv mercury.jpeg real
+melissa@MBP-de-Melissa planets % mv neptune.jpeg real
+melissa@MBP-de-Melissa planets % mv saturn.jpeg real
+melissa@MBP-de-Melissa planets % mv uranus.jpeg real  
+melissa@MBP-de-Melissa planets % mv venus.jpeg real
+melissa@MBP-de-Melissa planets % mv pluto.jpeg real
+melissa@MBP-de-Melissa planets % ls
+dwarf-planets	fictional	gas-giants	inhabited	real		terrestrial
+melissa@MBP-de-Melissa planets % cp real/earth.jpeg inhabited 
+melissa@MBP-de-Melissa planets % cd inhabited
+melissa@MBP-de-Melissa inhabited % ls
+earth.jpeg
+melissa@MBP-de-Melissa inhabited % cd ..
+melissa@MBP-de-Melissa planets % cp fictional/coruscant.jpeg inhabited
+melissa@MBP-de-Melissa planets % cp fictional/cybertron.jpeg inhabited
+melissa@MBP-de-Melissa planets % cp fictional/arrakis.jpeg inhabited 
+melissa@MBP-de-Melissa planets % cd inhabited
+melissa@MBP-de-Melissa inhabited % ls
+arrakis.jpeg	coruscant.jpeg	cybertron.jpeg	earth.jpeg
+melissa@MBP-de-Melissa inhabited % mv real/jupiter.jpeg gas-giants
