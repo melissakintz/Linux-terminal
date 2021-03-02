@@ -16,8 +16,6 @@ melissa@macbook-pro-de-melissa planets % mv real/inhabited inhabited
 melissa@macbook-pro-de-melissa planets % cp real/terrestrial/earth.jpeg inhabited 
 melissa@macbook-pro-de-melissa planets % cp fictional/cybertron.jpeg fictional/arrakis.jpeg inhabited
 melissa@macbook-pro-de-melissa planets % cp fictional/coruscant.jpeg inhabited 
-
-
 melissa@macbook-pro-de-melissa planets % cd real                              
 melissa@macbook-pro-de-melissa real % rm -r dwarf-planets/pluto.jpeg
 
