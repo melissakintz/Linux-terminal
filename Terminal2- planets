@@ -1,0 +1,46 @@
+melissa@macbook-pro-de-melissa planets % mkdir real fictional inhabited
+melissa@macbook-pro-de-melissa planets % cd real
+melissa@macbook-pro-de-melissa real % mkdir terrestrial gas-giants dwarf-planets
+
+
+melissa@macbook-pro-de-melissa real % cd ..
+melissa@macbook-pro-de-melissa planets % mv uranus.jpeg venus.jpeg mars.jpeg neptune.jpeg real
+melissa@macbook-pro-de-melissa planets % mv mercury.jpeg real
+melissa@macbook-pro-de-melissa planets % mv saturn.jpeg jupiter.jpeg real/gas-giants  
+melissa@macbook-pro-de-melissa planets % mv pluto.jpeg real/drawf-planets
+melissa@macbook-pro-de-melissa planets % mv earth.jpeg real/terrestrial
+melissa@macbook-pro-de-melissa planets % mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional 
+melissa@macbook-pro-de-melissa planets % cp real/terrestrial/earth.jpeg real/inhabited
+melissa@macbook-pro-de-melissa planets % mv real/inhabited inhabited 
+melissa@macbook-pro-de-melissa planets % cp real/terrestrial/earth.jpeg inhabited 
+melissa@macbook-pro-de-melissa planets % cp fictional/cybertron.jpeg fictional/arrakis.jpeg inhabited
+melissa@macbook-pro-de-melissa planets % cp fictional/coruscant.jpeg inhabited 
+                             
+melissa@macbook-pro-de-melissa planets % rm -r real/dwarf-planets
+
+
+melissa@macbook-pro-de-melissa shell % find planets
+planets
+planets/.DS_Store
+planets/real
+planets/real/mercury.jpeg
+planets/real/.DS_Store
+planets/real/gas-giants
+planets/real/gas-giants/jupiter.jpeg
+planets/real/gas-giants/saturn.jpeg
+planets/real/venus.jpeg
+planets/real/mars.jpeg
+planets/real/terrestrial
+planets/real/terrestrial/earth.jpeg
+planets/real/uranus.jpeg
+planets/real/neptune.jpeg
+planets/inhabited
+planets/inhabited/earth.jpeg
+planets/inhabited/.DS_Store
+planets/inhabited/arrakis.jpeg
+planets/inhabited/cybertron.jpeg
+planets/inhabited/coruscant.jpeg
+planets/fictional
+planets/fictional/arrakis.jpeg
+planets/fictional/cybertron.jpeg
+planets/fictional/coruscant.jpeg
